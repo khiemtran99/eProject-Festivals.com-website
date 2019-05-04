@@ -1,21 +1,8 @@
-@media (min-width: 1920px) {
-  .work-right-text {
-    padding: 150px 150px;
-  }
-}
-
 /* Normal desktop :992px. */
 
 @media (min-width: 992px) and (max-width: 1169px) {
   .slider-content {
     padding: 146px 0;
-  }
-  .work-right-text {
-    padding: 40px 0;
-  }
-  .work-right-text h2 {
-    font-size: 18px;
-    line-height: 28px;
   }
 }
 
@@ -40,21 +27,8 @@
   .tab-menu ul.nav li a {
     padding: 10px 16px;
   }
-  .suscribe-input input {
-    width: 60%;
-  }
-  .suscribe-input button {
-    width: 40%;
-  }
   .team-content.text-center>h4 {
     font-size: 20px;
-  }
-  .sus-btn {
-    margin-left: 0;
-  }
-  .suscribe-text h3 {
-    font-size: 16px;
-    padding-right: 20px;
   }
   .work-right-text h5 {
     font-size: 14px;
@@ -196,14 +170,6 @@
   .subs-feilds {
     width: 100%;
   }
-  .suscribe-input input {
-    width: 60%;
-  }
-  .suscribe-input button {
-    font-size: 15px;
-    padding: 14px 10px;
-    width: 40%;
-  }
   .section-headline h3 {
     font-size: 25px;
   }
@@ -229,19 +195,12 @@
     padding: 8px 12px;
     margin: 10px 4px;
   }
-  .pri_table_list {
-    margin-bottom: 30px;
-  }
   .single-awesome-project, .portfolio-2 .single-awesome-project {
     width: 100%;
     float: none;
   }
   .single-blog {
     margin-bottom: 30px;
-  }
-  .sus-btn {
-    margin-left: 0;
-    margin-top: 30px;
   }
   .contact-form {
     margin-top: 30px;

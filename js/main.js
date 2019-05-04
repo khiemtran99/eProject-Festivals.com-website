@@ -146,7 +146,7 @@
   ------------------------------ */
   // portfolio start
   $(window).on("load", function() {
-    var $container = $('.awesome-project-content');
+    var $container = $('.awesome-gallery-content');
     $container.isotope({
       filter: '*',
       animationOptions: {
@@ -155,9 +155,9 @@
         queue: false
       }
     });
-    var pro_menu = $('.project-menu li a');
+    var pro_menu = $('.gallery-menu li a');
     pro_menu.on("click", function() {
-      var pro_menu_active = $('.project-menu li a.active');
+      var pro_menu_active = $('.gallery-menu li a.active');
       pro_menu_active.removeClass('active');
       $(this).addClass('active');
       var selector = $(this).attr('data-filter');
