@@ -144,7 +144,7 @@
   /*----------------------------
    isotope active
   ------------------------------ */
-  // portfolio start
+  // gallery start
   $(window).on("load", function() {
     var $container = $('.awesome-gallery-content');
     $container.isotope({
