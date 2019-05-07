@@ -19,6 +19,7 @@
   13.Home Page 3  CSS
   14.Blog CSS
   15.Blog Details CSS
+  16.Festivals page
 
 -----------------------------------------------------------------------------------*/
 
@@ -1587,7 +1588,105 @@ div#preloader {
   background-attachment: fixed;
 }
 
+.header-bg-hindu {
+  background: url(../img/slider/hindu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+.header-bg-buddhism {
+  background: url(../img/slider/buddhism.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+.header-bg-islamic {
+  background: url(../img/slider/islamic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+.header-bg-jews {
+  background: url(../img/slider/jews.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+.header-bg-shinto {
+  background: url(../img/slider/shinto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+.header-bg-parsi {
+  background: url(../img/slider/parsi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+.header-bg-jainism {
+  background: url(../img/slider/jainism.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
 .header-bg.home-2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.header-bg-hindu.home-2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.header-bg-buddhism.home-2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.header-bg-islamic.home-2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.header-bg-jews.home-2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.header-bg-shinto.home-2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.header-bg-parsi.home-2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.header-bg-jainism.home-2 {
   width: 100%;
   height: 100%;
   position: relative;
@@ -2059,4 +2158,72 @@ span.email-notes {
 
 /*----------------------------------------
  .End CSS
+----------------------------------------*/
+
+/*----------------------------------------
+ 16. Festivals page
+----------------------------------------*/
+
+
+.festivals-page .banner-box {
+  margin-bottom: 40px;
+}
+
+.festivals-page{
+  margin-bottom: 40px;
+}
+
+.left-fest h4 {
+  border-bottom: 1px solid #ddd;
+  color: #444;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 0;
+  padding: 15px 10px;
+  text-transform: uppercase;
+}
+
+.left-fest {
+  background: #f9f9f9 none repeat scroll 0 0;
+  margin-bottom: 30px;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.left-fest li {
+  border-bottom: 1px solid #ddd;
+  display: block;
+}
+
+.left-fest ul li a:hover {}
+
+.left-fest ul li a {
+  color: #444;
+  display: block;
+  font-size: 14px;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.pst-content p a:hover, .left-fest ul li a:hover {
+  color: #3EC1D5;
+}
+
+.left-fest li:last-child {
+  border-bottom: 0;
+}
+
+.popular-tag.left-fest ul li a:hover {
+  color: #fff;
+}
+
+.popular-tag.left-side-tags.left-fest ul {
+  padding: 0 10px;
+}
+
+.fest-tags {
+  padding: 1px 0;
+}
+/*----------------------------------------
+ .End festivals page
 ----------------------------------------*/

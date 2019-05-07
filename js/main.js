@@ -173,7 +173,7 @@
     });
 
   });
-  //portfolio end
+  //gallery end
 
   /*---------------------
    Circular Bars - Knob
