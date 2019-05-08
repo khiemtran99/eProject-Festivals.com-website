@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+$(document).ready(function($) {
   "use strict";
 
   //Contact
@@ -94,6 +94,21 @@ jQuery(document).ready(function($) {
     if( ! action ) {
       action = 'contactform/contactform.php';
     }
+
+    $('#mesbutton').click(function() {
+      var name = $('input#name').val();
+      var email = $('input#email').val();
+      var subject = $('input#subject').val();
+      var contactmessage = $('textarea#message').val();
+      if(name && email && subject && contactmessage) {
+         //alert(`Your message has been sent. Thank you`);
+         $("#sendmessage").addClass("show");
+         $("#errormessage").removeClass("show");
+         $('.contactForm').find("input, textarea").val("");
+         return false;
+      }
+   });
+    /*
     $.ajax({
       type: "POST",
       url: action,
@@ -109,9 +124,9 @@ jQuery(document).ready(function($) {
           $("#errormessage").addClass("show");
           $('#errormessage').html(msg);
         }
-
       }
     });
+    */
     return false;
   });
 
