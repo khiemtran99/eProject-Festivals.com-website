@@ -1,0 +1,227 @@
+.payment_area {
+ font-family: Arial;
+ font-size: 17px;
+ padding: 8px;
+ box-sizing: border-box;
+}
+
+.payment_area .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+
+.payment_area .col-50 .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.payment_area .col-25 {
+ -ms-flex: 25%; /* IE10 */
+ flex: 25%;
+}
+
+.payment_area .col-50 {
+ -ms-flex: 50%; /* IE10 */
+ flex: 50%;
+}
+
+.payment_area .col-50 .row{
+ -ms-flex: 50%; /* IE10 */
+ flex: 50%;
+}
+
+.payment_area .col-75 {
+ -ms-flex: 75%; /* IE10 */
+ flex: 75%;
+}
+
+.payment_area .col-25,
+.payment_area .col-50,
+.payment_area .col-75 {
+    padding: 0 16px;
+}
+
+.payment_area .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+.payment_area input[type=text], .payment_area input[type=email] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.payment_area label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.payment_area .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+.payment_area #submitbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.payment_area #submitbtn:hover {
+    background-color: #45a049;
+}
+
+.payment_area a {
+    color: #2196F3;
+}
+
+.payment_area hr {
+    border: 1px solid lightgrey;
+}
+
+.payment_area span.price {
+    loat: right;
+    color: grey;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+.payment_area @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+}
+/* The Modal (background) */
+.payment_area .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+/* Modal Content/Box */
+.payment_area .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+/* The Close Button (x) */
+.payment_area .imgcontainer .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.payment_area .close:hover,
+.payment_area .close:focus {
+    color: red;
+    cursor: pointer;
+}
+/* Add Zoom Animation */
+.payment_area .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+.payment_area @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+.payment_area @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+/* Change styles for span and cancel button on extra small screens */
+.payment_area @media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+/* new-----------------------------------------------------------------------*/
+.payment_area button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+/* Set a style for all buttons */
+.payment_area button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.payment_area button:hover {
+    opacity: 0.8;
+}
+/* Extra styles for the cancel button */
+.payment_area .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+/* Center the image and position the close button */
+.payment_area .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.payment_area img.avatar {
+    width: 30%;
+}
+
+.payment_area .container {
+    padding: 16px;
+}
+
+.payment_area .error {
+   color: red;
+}
+
+.payment_area h6 .item_price {
+   font-weight: bold;
+   font-family: Arial;
+   font-size: 17px;
+   color: red;
+}
