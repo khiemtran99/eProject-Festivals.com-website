@@ -1653,6 +1653,54 @@ div#preloader {
   background-attachment: fixed;
 }
 
+.header-bg-hindu-books {
+   background: url(../img/slider/hindu.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top center;
+   background-attachment: fixed;
+}
+
+.header-bg-buddhism-books {
+   background: url(../img/slider/buddhism.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top center;
+   background-attachment: fixed;
+}
+
+.header-bg-christian-books {
+   background: url(../img/slider/christian.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top center;
+   background-attachment: fixed;
+}
+
+.header-bg-islamic-books {
+   background: url(../img/slider/islamic.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top center;
+   background-attachment: fixed;
+}
+
+.header-bg-jews-books {
+   background: url(../img/slider/jews.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top center;
+   background-attachment: fixed;
+}
+
+.header-bg-shinto-books {
+   background: url(../img/slider/shinto.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top center;
+   background-attachment: fixed;
+}
+
 .header-bg.home-2 {
   width: 100%;
   height: 100%;
