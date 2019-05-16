@@ -1,3 +1,7 @@
+/************
+Payform for book order
+************/
+
 $(document).ready(function(){
    $('.error').hide();
    $('.successMessage').hide();

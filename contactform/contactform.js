@@ -1,3 +1,5 @@
+/*jQuery script for main contact form*/
+
 $(document).ready(function($) {
   "use strict";
 
