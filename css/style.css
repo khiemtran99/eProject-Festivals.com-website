@@ -1216,6 +1216,10 @@ div#preloader {
 /*  13.Blog Area
 /*--------------------------------*/
 
+.news_headlines a:hover {
+   color: #3EC1D5;
+}
+
 .blog-area {
   height: auto;
   width: 100%;
