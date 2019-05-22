@@ -1,4 +1,10 @@
-// JavaScript Document
+/* JavaScript codes for:
+   (1)count to event dates,
+   (2) search bar
+   (3) photo selection in festival sub-pages.
+*/
+/*************************************************/
+
 //1. Countdown Function
 function setTimer(elem_id, date) {
 // set the date we're counting down to
@@ -41,6 +47,7 @@ setTimer("down10","June 04, 2019");
 setTimer("down11","Aug 10, 2019");
 setTimer("down12","Aug 11, 2019");
 setTimer("down13","May 31, 2019");
+
 // 2. Search function
 function myFunction() {
   var input, filter, ul, li, a, i;
@@ -57,7 +64,8 @@ function myFunction() {
     }
   }
 }
-//page content 
+
+//3. Page content in festivals sub-pages
 var slideIndex = 1;
 showSlides(slideIndex);
 
